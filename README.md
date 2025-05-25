@@ -1,7 +1,8 @@
 # budgeting-app
+
 This repository will include my budgeting app. I plan to complete this in a few phases:
 
-- [ ] ##Phase 1: Foundation 
+##Phase 1: Foundation
 
 Goal: Get a working backend + UI skeleton.
 
