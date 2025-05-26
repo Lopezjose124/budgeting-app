@@ -4,7 +4,7 @@ Schema Documentation Outline
 
 In erd-v1.pdf you will find the current vesion of the Schema. The purpose of the database is to store users, accounts, transactions, and categories.
 
-# 2. 🧱 Databasr Tables
+# 2. 🧱 Database Tables
 
 ## 🧑 Users Table
 
