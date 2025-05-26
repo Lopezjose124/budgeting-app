@@ -1,0 +1,30 @@
+# Maven / Gradle
+/target/
+/build/
+
+# IntelliJ / VSCode
+.idea/
+*.iml
+.vscode/
+
+# Logs
+*.log
+/logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env & credentials
+.env
+application.properties
+application.yml
+
+# Tests output
+/test-output/
+
+# Database files (optional if local dev DBs exist)
+/*.h2.db
+/*.mv.db
+/*.sqlite
+
