@@ -31,3 +31,9 @@ application.yml
 /*.mv.db
 /*.sqlite
 
+.env
+*.properties
+*.yml
+*.yaml
+
+
