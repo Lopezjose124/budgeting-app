@@ -37,3 +37,6 @@ application.yml
 *.yaml
 
 
+.classpath
+.project
+.settings/
