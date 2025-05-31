@@ -1,8 +1,10 @@
 # Use an official OpenJDK image as a base
-FROM openjdk:21-jdk-slim
+FROM openjdk:24-jdk-slim
 
+# Copy everything inside of the app directory
+COPY /budgeting-app
 # Set the working directory
-WORKDIR /app
+WORKDIR /budgeting-app
 
 # Copy the built JAR file into the container
 COPY target/*.jar app.jar

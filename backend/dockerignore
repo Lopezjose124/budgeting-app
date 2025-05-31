@@ -10,4 +10,5 @@ Dockerfile
 *.db
 application.properties
 application.yml
+secrets/
 .env

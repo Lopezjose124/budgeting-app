@@ -7,6 +7,9 @@
 *.iml
 .vscode/
 
+# MYSQL Docker container credentials 
+/backend/secrets/
+
 # Logs
 *.log
 /logs/
