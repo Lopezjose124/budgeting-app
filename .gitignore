@@ -14,14 +14,11 @@
 *.log
 /logs/
 
-# Target 
-/backend/target/ 
-
 # OS
 .DS_Store
 Thumbs.db
 
-# Env & credentials
+# Environment & credentials
 .env
 application.properties
 application.yml
@@ -34,12 +31,9 @@ application.yml
 /*.mv.db
 /*.sqlite
 
-.env
-*.properties
-*.yml
-*.yaml
-
-
+# Eclipse
 .classpath
 .project
 .settings/
+
+

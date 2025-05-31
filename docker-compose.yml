@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  budget-db:
+    image: mysql:8.4
+    container_name: budget-db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: budget
+      MYSQL_ROOT_PASSWORD_FILE: /run/secrets/mysql_root_password.txt
+      MYSQL_USER_FILE: /run/secrets/mysql_user.txt
+      MYSQL_PASSWORD_FILE: /run/secrets/mysql_user_password.txt
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./backend/secrets:/run/secrets:ro
+
+volumes:
+  db_data:
+
